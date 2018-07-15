@@ -1,0 +1,8 @@
+{
+  "name": "accordion",
+  "displayName": "accordion",
+  "ios": {
+    "bundleIdentifier": "org.reactjs.native.example.accordion",
+    "supportsTablet": true
+  }
+}
