@@ -36,7 +36,9 @@ class ImportantBubble extends Component {
                             <Text style={styles.impBubbleText}>Important notification chat bubble</Text>
                         </View>
                         <TouchableOpacity style={styles.addButton}>
-                            <Image style={styles.addIcon} source={ require('../assets/addButton.png')}/>
+                            <TouchableOpacity>
+                                <Image style={styles.addIcon} source={ require('../assets/addButton.png')}/>
+                            </TouchableOpacity>
                         </TouchableOpacity>                        
                     </View>
                 </View>

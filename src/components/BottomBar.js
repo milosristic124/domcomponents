@@ -28,21 +28,21 @@ class BottomBar extends Component {
     render() {
         return (
                 <View style={styles.bottomBarContainer}>         
-                    <View style={styles.bottomItem}>
+                    <TouchableOpacity style={styles.bottomItem}>
                         <Image style={styles.bottomImage} source={ require('../assets/home.png') }/>
-                    </View>
-                    <View style={styles.bottomItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.bottomItem}>
                         <Image style={styles.bottomImage} source={ require('../assets/study.png') }/>
-                    </View>
-                    <View style={styles.bottomItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.bottomItem}>
                         <Image style={styles.bottomImage} source={ require('../assets/addbottom.png') }/>
-                    </View>
-                    <View style={styles.bottomItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.bottomItem}>
                         <Image style={styles.bottomImage} source={ require('../assets/star.png') }/>
-                    </View>
-                    <View style={styles.bottomItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.bottomItem}>
                         <Image style={styles.bottomImage} source={ require('../assets/bottomavatar.png') }/>
-                    </View>
+                    </TouchableOpacity>
                 </View>
             
         );
