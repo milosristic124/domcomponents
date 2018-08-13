@@ -35,11 +35,11 @@ class ImportantBubble extends Component {
                         <View style={styles.impBubbleHeader}>
                             <Text style={styles.impBubbleText}>Important notification chat bubble</Text>
                         </View>
-                        <TouchableOpacity style={styles.addButton}>
+                        <View style={styles.addButton}>
                             <TouchableOpacity>
-                                <Image style={styles.addIcon} source={ require('../assets/addButton.png')}/>
+                            <Image style={styles.addIcon} source={ require('../assets/addButton.png')}/>
                             </TouchableOpacity>
-                        </TouchableOpacity>                        
+                        </View>                        
                     </View>
                 </View>
                 </View>

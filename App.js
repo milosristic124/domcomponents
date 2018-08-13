@@ -16,7 +16,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Accordion from './src/components/Accordion';
+import ImageRotation from './src/components/ImageRotation';
 import flightsData from './config/data.json';
 
 const {width, height} = Dimensions.get('window');
@@ -27,8 +27,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={{ flex:1 }}>    
-          <Accordion
-          />
+          <ImageRotation/>
       </View>     
     );
   }
